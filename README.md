@@ -18,7 +18,7 @@ npx hardhat account
 ```
 
 Useful Hardhat console commands:
-``shell
+```shell
 const Box = await ethers.getContractFactory("Box")
 const box = await Box.attach("paste-contract-address-here")
 (await box.retrieve()).toString()
