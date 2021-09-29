@@ -2,6 +2,10 @@
 
 In this project on can deploy a multiple signature wallet. Meaning, in order to make transactions, the threshold of signatures required must be reached. All specifications of the type of wallet can be specified in this contract. Enabling usage with multiple signer scenarios. 
 
+A test has been created in the 'test' folder. Run this locally to test the contract. 
+
+If you want to deploy to mainnet, change the network variable in the hardhat.config file to mainnet, or whatever chain from the options specified.
+
 Try running some of the following tasks:
 
 ```shell
